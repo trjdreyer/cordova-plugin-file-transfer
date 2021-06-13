@@ -815,7 +815,7 @@ public class FileTransfer extends CordovaPlugin {
                         connection = resourceApi.createHttpConnection(sourceUri);
 
 //NEW STUFF - see
-koos
+//https://github.com/apache/cordova-plugin-file-transfer/issues/203
                         // Setup the HTTPS connection class to trust everyone
                         HttpsURLConnection https = (HttpsURLConnection)connection;
                         oldSocketFactory = trustAllHosts(https);
